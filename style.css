@@ -1,0 +1,51 @@
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-color: #454545;
+}
+
+.text b {
+  font: 400 25vh 'Pacifico';
+  letter-spacing: -5px;
+  color: #fee;
+  text-shadow: 0 0px 10px, 0 0 1em #560a86, 0 0 0.5em #560a86, 0 0 0.1em #560a86,
+    0 10px 3px #333;
+}
+
+.text b span {
+  animation: flicker linear infinite 2s;
+}
+
+@keyframes flicker {
+  75% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  76% {
+    color: #222;
+  }
+  77% {
+    color: inherit;
+    text-shadow: none;
+  }
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #222;
+    text-shadow: none;
+  }
+  80% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  90% {
+    color: #222;
+    text-shadow: none;
+  }
+  90.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
